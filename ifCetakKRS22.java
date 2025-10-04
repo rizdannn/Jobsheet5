@@ -16,7 +16,11 @@
         System.out.println("Register ditolak, silahkan lunasi UKT terlibih dahulu");
        }
 
+       String output = (uktLunas) 
+        ?"Pembayaran UKT terverifikasi?\nSilahkan cetak KRS dan minta tanda tangan DPA! "
+        :"Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu";
 
+        System.out.println(output);
 
     }
     
